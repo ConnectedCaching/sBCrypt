@@ -1,7 +1,7 @@
 package net.connectedcaching
 
-package object sbcrypt  {
+package object sBCrypt  {
 
-	implicit def stringToBCryptableString(s: String) = new BCryptableString(s)
+	implicit def stringToBCryptableString(s: String) = new net.connectedcaching.sbcrypt.BCryptableString(s)
 
 }
