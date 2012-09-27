@@ -6,7 +6,7 @@ sBCrypt is a lightweight Scala wrapper around [jBCrypt](http://www.mindrot.org/p
 Usage
 -----
 	
-	import net.connectedcaching.SBCrypt._
+	import net.connectedcaching.sbcrypt._
 	
 	// standard random salt generation with 10 rounds
 	"password".bcrypt => "$2a$10$SZcGTDDA5lHoq7JeyMrML.Nbw.GRz5ecZKn62YqLVgwl/T9aoBUq."
