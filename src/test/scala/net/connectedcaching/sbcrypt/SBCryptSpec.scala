@@ -1,10 +1,8 @@
-package net.connectedcaching
+package net.connectedcaching.sbcrypt
 
 import org.specs2.mutable._
 
 class SBCryptSpec extends Specification {
-
-	import SBCrypt._
 
 	"sBCrypt" should {
 
