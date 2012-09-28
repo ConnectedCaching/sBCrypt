@@ -39,4 +39,10 @@ class BCryptableString(s: String) {
 	 */
 	def equalsBCrypted(hash: String) = BCrypt.checkpw(s, hash)
 
+	/**
+	 * @param plain a plain text string
+	 * @return whether the receiving bcrypted string is a result of the given plain text
+	 */
+	def bcryptedEquals(plain: String) = BCrypt.checkpw(plain, s)
+
 }

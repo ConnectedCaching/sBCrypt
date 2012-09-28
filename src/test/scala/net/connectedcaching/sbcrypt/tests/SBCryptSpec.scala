@@ -21,6 +21,7 @@ class SBCryptSpec extends Specification {
 			"foobar".equalsBCrypted("$2a$09$XioEvBw/KFQo6kP0J5ttxebYa6ujuMZLt5kWnvHOkIPiI7CYqzf3C") must beFalse
 			"foobaz".equalsBCrypted("$2a$10$XioEvBw/KFQo6kP0J5ttxebYa6ujuMZLt5kWnvHOkIPiI7CYqzf3C") must beFalse
 			"foobar".equalsBCrypted("$2a$10$XioEvBw/KFQo6kP0J5ttxeGuRTyMuNyipAR42vzf4ANGCnZ0n41Uy") must beFalse
+			"$2a$10$XioEvBw/KFQo6kP0J5ttxebYa6ujuMZLt5kWnvHOkIPiI7CYqzf3C".bcryptedEquals("foobar") must beTrue
 		}
 
 		"not deliver the same result twice if no seed is specified" in {
