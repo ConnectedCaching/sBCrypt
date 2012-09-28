@@ -42,5 +42,5 @@ to your build file like shown below.
 
 History
 -------
-- v1.0 - September 27 2012
+- v1.0 - September 28 2012
 	- Initial release
