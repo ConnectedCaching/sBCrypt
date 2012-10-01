@@ -1,6 +1,8 @@
 sBCrypt
 =======
 
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=leoschweizer&url=https://github.com/ConnectedCaching/sBCrypt&title=sBCrypt&language=en&tags=github&category=software) 
+
 sBCrypt is a lightweight Scala wrapper around [jBCrypt](http://www.mindrot.org/projects/jBCrypt/) that allows to hash strings with BCrypt in an object-oriented way.
 
 Usage
